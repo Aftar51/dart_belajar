@@ -11,9 +11,6 @@ void main() {
   int t = 10;
   int s = 5;
   int r = 10;
-  int persegi = 4;
-  int panjang = 2;
-  int jajar = 2;
   var setengah = 0.5;
   double phi = 3.14;
 
@@ -33,6 +30,4 @@ void main() {
   print("luasnya yaitu ${setengah * a * t} dan kelilingnya yaitu ${a + b + c}");
   // Lingkaran
   print("luasnya yaitu ${phi * r * r} dan kelilingnya yaitu ${2 * phi * r}");
-  // 
-
 }
