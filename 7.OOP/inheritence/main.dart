@@ -1,5 +1,4 @@
   import 'cat.dart';
-  import 'animal.dart';
 
 void main() {
   

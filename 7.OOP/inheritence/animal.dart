@@ -1,5 +1,3 @@
-import 'dart:convert';
-
 class Animal {
   String name;
   int age;
