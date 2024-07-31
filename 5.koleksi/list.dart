@@ -12,6 +12,10 @@ void main() {
   print(dynamicList);
   print(namaSiswa);
 
+  // Menghapus elemen dari list berdasarkan kondisi
+  namaSiswa.removeWhere((element) => element.contains("Budi"));
+  print(namaSiswa);
+
   /**
    * Mengakses elemen list by index
    * index dimulai dari 0
