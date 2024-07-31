@@ -7,6 +7,6 @@ class Cat extends Mammal with Walk {
   Cat(super.name, super.age, this.color);
 
   void cat() {
-    print("warna mataku $color");
+    print("Halo, namaku $name umurku $age dan warna mataku adalah $color");
   }
 }

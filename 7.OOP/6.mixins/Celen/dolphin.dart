@@ -7,6 +7,6 @@ class Dolphin extends Mammal with Swim {
   Dolphin(super.name, super.age, this.color);
 
   void Dholpin() {
-    print("warna tubuhku $color");
+    print("Halo, namaku $name umurku $age dan warna kuliku adalah $color");
   }
 }
