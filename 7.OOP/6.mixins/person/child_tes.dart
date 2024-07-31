@@ -1,6 +1,7 @@
+import 'interface_tes.dart';
 import 'person_tes.dart';
 
-class Children extends Person {
+class Children extends Person with Shcool, Class, Progamming {
   String hobby;
   String address;
 
