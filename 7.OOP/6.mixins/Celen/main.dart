@@ -3,29 +3,52 @@ import 'cat.dart';
 import 'bat.dart';
 import 'dove.dart';
 import 'duck.dart';
+import 'shark.dart';
+import 'flying-fish.dart';
 
 void main(List<String> args) {
-  Dolphin dolphin = Dolphin("Lumba-Lumba", 11, "Abu-Abu");
-  dolphin.Dholpin();
-  dolphin.swim('Lumba-Lumba');
+  Dolphin Lumba = Dolphin("Lumba-Lumba", 11, "Abu-Abu");
+  Lumba.Dholpin();
+  Lumba.swim('Lumba-Lumba');
 
-  Cat cat = Cat("kucing", 2, "Lunar");
-  cat.cat();
-  cat.walk("kucing");
+  print("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
 
-  Bat bat = Bat("Kekelawar", 2, "nigga");
-  bat.bat();
-  bat.fly('Kekelawar');
-  bat.walk('Kekelawar');
+  Cat kucing = Cat("Kucing", 2, "Lunar");
+  kucing.cat();
+  kucing.walk("kucing");
+
+  print("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
+
+  Bat kekelawar = Bat("Kekelawar", 2, "nigga");
+  kekelawar.bat();
+  kekelawar.fly('Kekelawar');
+  kekelawar.walk('Kekelawar');
+
+  print("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
 
   Dove merpati = Dove("Merpati", 4, "Abu-Abu");
   merpati.merpati();
   merpati.fly('Merpati');
   merpati.walk('Merpati');
 
-  Duck bebek = Duck("bebek", 4, "Abu-Abu");
+  print("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
+
+  Duck bebek = Duck("Bebek", 4, "Abu-Abu");
   bebek.bebek();
-  bebek.fly('bebek');
-  bebek.swim('bebek');
-  bebek.walk('bebek');
+  bebek.fly('Bebek');
+  bebek.swim('Bebek');
+  bebek.walk('Bebek');
+
+  print("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
+
+  Shark hiu = Shark("Megalodon", 10000, "Abu-Abu");
+  hiu.hiu();
+  hiu.swim("Megalodon");
+
+  print("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
+
+  FlyingFish ikanTerbang = FlyingFish("Ikan Terbang", 1, "biru");
+  ikanTerbang.ikanTerbang();
+  ikanTerbang.swim("Ikan Terbang");
+  ikanTerbang.fly("Ikan Terbang");
 }
