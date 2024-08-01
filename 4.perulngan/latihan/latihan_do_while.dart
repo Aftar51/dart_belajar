@@ -1,8 +1,8 @@
 void main() {
-  int i = 0;
+  int i = 10;
 
   do {
     print("*" * i);
-    i++;
-  } while (i <= 10);
+    i--;
+  } while (0 <= i);
 }

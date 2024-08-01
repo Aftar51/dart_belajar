@@ -20,4 +20,9 @@ void main() {
   print((a > b) && (a < b));
   // tanda || atau
   print((a > b) || (a < b));
+
+  int c = 20;
+  int d = 10;
+  
+  print((c < d) || (a < b));
 }

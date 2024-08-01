@@ -1,7 +1,7 @@
 void main(List<String> args) {
   final int firstNumber = 10;
   final int secondNumber = 5;
-  final operator = "*";
+  final operator = "";
 
   switch (operator) {
     case "+":
