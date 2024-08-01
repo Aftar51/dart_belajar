@@ -24,13 +24,12 @@ void main(List<String> args) {
   print("=======================");
 
   //buat anony function volumeTabung = r = 100
-  (int r, int t){
-    print(2 * 3.14 * r * (t + r));
-  }(100, 100);
+  Function volumeTabung = (int r, int t) => print(2 * 3.14 * r * (t + r));
+  volumeTabung(100, 100);
+
   //buat anony function luasPermukaanTabung = r = 100
-  (int r, int t){
-    print(3.14 * r * r * t);
-  }(100, 100);
+  Function luasPermukaanTabung = (int r, int t) => print(3.14 * r * r * t);
+  luasPermukaanTabung(100, 100);
 
   print("=======================");
 
@@ -44,6 +43,12 @@ void main(List<String> args) {
   print(luasPersegi(10.0));
   Function kelilingPersegi = (double sisi) => 4 * sisi.toInt();
   print(kelilingPersegi(4.0));
+
+  List<int> numbers = [1, 2, 3, 4, 5,];
+  // Anonymous fucntion pada map
+  List<int> perkalianNumbers = numbers.map((numbers) => numbers * numbers).toList();
+  print(perkalianNumbers);
+
 }
 
 // Pure Function
