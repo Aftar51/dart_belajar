@@ -17,7 +17,4 @@ void main(List<String> args) {
     cekNumber(numbers, (numbers){
       print("Number : $numbers");
     });
-
-    // perkalian numbers * number
-    
 }
