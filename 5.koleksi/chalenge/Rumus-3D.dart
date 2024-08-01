@@ -18,7 +18,7 @@ void main() {
   print("Luasnya adalah ${2*La + Ka*t} dan volume adalah ${La * t}");
 
   // Tabung
-  print("Luasnya adalah ${2 * phi * r * (t + r)} dan volume adalah ${phi * r * r * t}"); //
+  print("Luasnya adalah ${2 * phi * r * (t + r)} dan volume adalah ${phi * r * r * t}");
 
   // Bola
   print("Luasnya adalah ${4/3 * phi * r * r} dan volume adalah ${4/3 * phi * r * r * r}");
